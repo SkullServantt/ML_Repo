@@ -1,0 +1,3 @@
+"use client";
+import { useEffect } from "react";
+export function CursorGlow(){useEffect(()=>{const el=document.createElement("div");el.className="cursor-glow";document.body.appendChild(el);let raf=0,x=0,y=0;const move=(e:MouseEvent)=>{x=e.clientX;y=e.clientY;el.classList.add("active");cancelAnimationFrame(raf);raf=requestAnimationFrame(()=>{el.style.left=`${x}px`;el.style.top=`${y}px`})};const leave=()=>el.classList.remove("active");window.addEventListener("mousemove",move,{passive:true});window.addEventListener("mouseout",leave);return()=>{cancelAnimationFrame(raf);window.removeEventListener("mousemove",move);window.removeEventListener("mouseout",leave);el.remove()};},[]);return null}

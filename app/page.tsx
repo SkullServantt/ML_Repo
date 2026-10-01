@@ -8,5 +8,7 @@ import { AboutMiguel } from "@/components/AboutMiguel";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { CursorGlow } from "@/components/CursorGlow";
+import { Reveal } from "@/components/Reveal";
 
-export default function Home(){return <><Header/><main><Hero/><QuickStrip/><MotorcycleCatalog/><HowItWorks/><Simulator/><AboutMiguel/><CTA/></main><Footer/><WhatsAppButton/></>}
+export default function Home(){return <><CursorGlow/><Header/><main><Hero/><Reveal><QuickStrip/></Reveal><Reveal><MotorcycleCatalog/></Reveal><Reveal><HowItWorks/></Reveal><Reveal><Simulator/></Reveal><Reveal><AboutMiguel/></Reveal><Reveal><CTA/></Reveal></main><Footer/><WhatsAppButton/></>}
