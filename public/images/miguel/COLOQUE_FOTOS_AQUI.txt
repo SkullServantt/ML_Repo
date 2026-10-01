@@ -1,0 +1,9 @@
+Coloque aqui as fotos reais fornecidas pelo usuário.
+Sugestão:
+- hero.jpg
+- sobre.jpg
+- atendimento-01.jpg
+- atendimento-02.jpg
+
+Depois, altere os componentes para apontar para os arquivos escolhidos.
+Não use imagens artificiais para representar Miguel.
