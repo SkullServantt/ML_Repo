@@ -19,7 +19,7 @@ export function Hero() {
       </div>
       <div className="hero-photo">
         <div className="photo-glow" />
-        <img src="/miguel/miguel-02.jpeg" alt="Miguel Lobo na Honda Motovix Serra" />
+        <img src="/ML_Repo/miguel/miguel-02.jpeg" alt="Miguel Lobo na Honda Motovix Serra" />
         <div className="photo-card"><span>SEU CONSULTOR HONDA</span><strong>Miguel Lobo</strong><small>Motovix Serra</small></div>
       </div>
     </div>

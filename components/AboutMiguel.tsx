@@ -9,12 +9,12 @@ export function AboutMiguel() {
         <div className="about-collage">
           <img
             className="about-main"
-            src="/miguel/miguel-01.jpeg"
+            src="/ML_Repo/miguel/miguel-01.jpeg"
             alt="Miguel Lobo na Motovix Serra"
           />
           <img
             className="about-small"
-            src="/miguel/miguel-03.jpeg"
+            src="/ML_Repo/miguel/miguel-03.jpeg"
             alt="Miguel Lobo na concessionária Honda"
           />
         </div>
