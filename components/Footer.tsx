@@ -1,0 +1,3 @@
+import { Instagram } from "lucide-react";
+const instagram = process.env.NEXT_PUBLIC_INSTAGRAM || "https://www.instagram.com/miguellobo1/";
+export function Footer(){return <footer><div className="container footer-grid"><div><strong>MIGUEL LOBO</strong><span>Consultor Honda • Motovix Serra</span></div><div><span>Av. Lourival Nunes, 220 • Jardim Limoeiro • Serra/ES</span></div><div><a href={instagram} target="_blank" rel="noreferrer"><Instagram size={17}/> Instagram</a></div></div><div className="container footer-bottom">Site comercial de Miguel Lobo. Valores e disponibilidade devem ser confirmados diretamente com o consultor.</div></footer>}

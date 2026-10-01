@@ -1,0 +1,3 @@
+import { ArrowRight } from "lucide-react";
+const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || "5527988493278";
+export function CTA(){return <section className="cta-section" id="contato"><div className="container cta-inner"><div><div className="eyebrow"><span/> MIGUEL LOBO • MOTOVIX SERRA</div><h2>Já sabe qual Honda você quer?</h2><p>Me chama no WhatsApp e vamos conversar sobre as condições.</p></div><a className="button button-white" href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Olá Miguel! Quero consultar uma Honda.")}`} target="_blank" rel="noreferrer">Chamar Miguel <ArrowRight size={18}/></a></div></section>}
