@@ -1,3 +1,4 @@
+import { assetPath } from "@/lib/site";
 import { ArrowRight, MapPin, MessageCircle, ShieldCheck } from "lucide-react";
 
 const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || "5527988493278";
@@ -19,9 +20,10 @@ export function Hero() {
       </div>
       <div className="hero-photo">
         <div className="photo-glow" />
-        <img src="/ML_Repo/miguel/miguel-02.jpeg" alt="Miguel Lobo na Honda Motovix Serra" />
+        <img src={assetPath("/miguel/miguel-02.jpeg")} alt="Miguel Lobo na Honda Motovix Serra" />
         <div className="photo-card"><span>SEU CONSULTOR HONDA</span><strong>Miguel Lobo</strong><small>Motovix Serra</small></div>
       </div>
     </div>
   </section>;
 }
+

@@ -1,3 +1,4 @@
+import { assetPath } from "@/lib/site";
 import { Instagram, MapPin, MessageCircle } from "lucide-react";
 const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || "5527988493278";
 const instagram =
@@ -9,12 +10,12 @@ export function AboutMiguel() {
         <div className="about-collage">
           <img
             className="about-main"
-            src="/ML_Repo/miguel/miguel-01.jpeg"
+            src={assetPath("/miguel/miguel-01.jpeg")}
             alt="Miguel Lobo na Motovix Serra"
           />
           <img
             className="about-small"
-            src="/ML_Repo/miguel/miguel-03.jpeg"
+            src={assetPath("/miguel/miguel-03.jpeg")}
             alt="Miguel Lobo na concessionária Honda"
           />
         </div>
@@ -56,3 +57,4 @@ export function AboutMiguel() {
     </section>
   );
 }
+
